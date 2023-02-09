@@ -1,16 +1,15 @@
 # gRPC_nmap
-gRPC сервис обертка над nmap
+gRPC service wrapper over nmap
 ___
-### На данный момент:
-- устанавливает gRPC между клиентом и сервером
-- проверяет правильное кол-во введеных адресных аргументов
-- информирует юзера об ошибках (как например неудачный запуск сервера/запроса) посредствам `<fmt.Errorf>`
+- Sets gRPC between the client and the server
+- Checks the correct number of address arguments
+- Informs the user about errors (such as failed server start/request) via `<fmt.Errorf>`.
 
 ___
-### Интрукция для запуска:
-- `<make build>` для билда сервера/клиента
-- `<./bin/server :3000>` для запуска сервера
-- `<./bin/client :3000>` для запуска клиента
+### Quick start
+- `<make build>` for server/client build
+- `<./bin/server :3000>` to start the server
+- `<./bin/client :3000>` to run the client
 
 
 
